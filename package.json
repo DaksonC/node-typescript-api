@@ -1,0 +1,35 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "API com Node.js e TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaksonC/node-typescript-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Dakson Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaksonC/node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/DaksonC/node-typescript-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.3.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.237",
+    "module-alias": "^2.2.3"
+  }
+}
